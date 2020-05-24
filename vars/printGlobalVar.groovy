@@ -1,6 +1,4 @@
-def call() {
-    echo "slack channel is :"
-    echo slackChannel
-
-    echo "slack channel resolved: ${slackChannel}"
+def call(Object buildInfo) {
+    echo "buildInfo is :"
+    echo buildInfo
 }
